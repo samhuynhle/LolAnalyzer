@@ -40,8 +40,8 @@ class DataResetter:
         print(f"Resetting all data for {player_name}#{tag}...")
 
         # 1. Remove partitioned files
-        match_file = os.path.join("data", user_history["match_history_file"])
-        report_file = os.path.join("data", user_history["report_history_file"])
+        match_file = os.path.join("data", user_history.match_history_file)
+        report_file = os.path.join("data", user_history.report_history_file)
         
         for f in [match_file, report_file]:
             if os.path.exists(f):
@@ -49,7 +49,7 @@ class DataResetter:
                 print(f"Deleted {f}")
 
         # 2. Remove player-specific result and cache folders
-        region = user_history["region"]
+        region = user_history.region
         player_slug = f"{player_name.replace(' ', '_')}-{tag}"
         
         res_dir = os.path.join("results", region, player_slug)
@@ -61,7 +61,7 @@ class DataResetter:
                 print(f"Deleted directory {d}")
 
         # 3. Remove from registry
-        del self.dm.registry["users"][user_id]
+        del self.dm.registry.users[user_id]
         self.dm._save_registry()
         
         print(f"Reset for {player_name}#{tag} complete.")

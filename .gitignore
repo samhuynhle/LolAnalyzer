@@ -11,8 +11,7 @@ venv/
 # Project Specific
 cache/
 results/
-data/matches/
-data/registry.json
+data/
 
 # IDEs
 .vscode/
