@@ -10,14 +10,14 @@ class MatchAnalyzer:
     def __init__(self, api_key, name, tag, region=None, match_count=52):
         self.name = name.strip()
         self.tag = tag.strip()
-        self.region = region.lower() if region else None
         self.match_count = match_count
         
         self.validate_inputs()
         
         from src.config import get_routing_region
-        routing = get_routing_region(self.region or "EUW1") # Use dummy for init if region unknown
-        self.api = RiotApiClient(api_key, routing)
+        # Standardize region to the routing region for consistent folder naming
+        self.region = get_routing_region(region) if region else None
+        self.api = RiotApiClient(api_key, self.region or "europe")
         
         self.player_slug = f"{self.name.replace(' ', '_')}-{self.tag}"
         self.cache = None # Will be init after discovery
@@ -44,7 +44,7 @@ class MatchAnalyzer:
             if not discovered_routing:
                 print(f"Could not find player {self.name}#{self.tag} in any region.")
                 return
-            self.region = discovered_routing # Use routing as region name if platform unknown
+            self.region = discovered_routing 
             self.api.routing = discovered_routing
             self.api.base_url = f"https://{discovered_routing}.api.riotgames.com"
             puuid = discovered_puuid

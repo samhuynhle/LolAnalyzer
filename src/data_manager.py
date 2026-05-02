@@ -8,8 +8,9 @@ class DataManager:
         self.registry_path = registry_path
         self.data_dir = os.path.dirname(registry_path)
         self.matches_dir = os.path.join(self.data_dir, "matches")
+        self.reports_dir = os.path.join(self.data_dir, "reports")
         
-        for d in [self.data_dir, self.matches_dir]:
+        for d in [self.data_dir, self.matches_dir, self.reports_dir]:
             if not os.path.exists(d):
                 os.makedirs(d)
         
@@ -25,25 +26,23 @@ class DataManager:
         with open(self.registry_path, 'w') as f:
             json.dump(self.registry, f, indent=4)
 
-    def _get_player_match_file(self, user_id):
-        # Create a safe filename from the user_id (e.g. spear_shot#1111 -> spear_shot_1111.json)
+    def _get_player_file_path(self, user_id, folder):
         safe_name = user_id.replace("#", "_").replace(" ", "_")
-        return os.path.join(self.matches_dir, f"{safe_name}.json")
+        return os.path.join(folder, f"{safe_name}.json")
 
-    def _load_player_matches(self, user_id):
-        path = self._get_player_match_file(user_id)
+    def _load_json_file(self, path):
         if os.path.exists(path):
             with open(path, 'r') as f:
                 return json.load(f)
         return {}
 
-    def _save_player_matches(self, user_id, matches):
-        path = self._get_player_match_file(user_id)
+    def _save_json_file(self, path, data):
         with open(path, 'w') as f:
-            json.dump(matches, f, indent=4)
+            json.dump(data, f, indent=4)
 
     def register_report(self, player_name, tag, region, file_path, match_count, processed_count, detailed_matches=None):
         user_id = f"{player_name}#{tag}".lower()
+        safe_id = user_id.replace("#", "_").replace(" ", "_")
         
         if user_id not in self.registry["users"]:
             self.registry["users"][user_id] = {
@@ -52,45 +51,53 @@ class DataManager:
                 "region": region,
                 "first_seen": time.strftime('%Y-%m-%d %H:%M:%S'),
                 "last_analysis": "",
-                "report_history": [],
-                "match_history_file": f"matches/{user_id.replace('#', '_').replace(' ', '_')}.json"
+                "match_history_file": f"matches/{safe_id}.json",
+                "report_history_file": f"reports/{safe_id}.json"
             }
         
         user_entry = self.registry["users"][user_id]
         
-        # Store detailed match data in its own specific file (table)
+        # 1. Update Match History Table
         if detailed_matches:
-            matches = self._load_player_matches(user_id)
-            for match in detailed_matches:
-                mid = match["match_id"]
-                matches[mid] = match
+            match_file = self._get_player_file_path(user_id, self.matches_dir)
+            matches = self._load_json_file(match_file)
+            for m in detailed_matches:
+                matches[m["match_id"]] = m
             
-            # Sort matches by timestamp descending (newest first)
+            # Sort matches by timestamp descending
             sorted_matches = dict(sorted(
                 matches.items(), 
-                key=lambda item: item[1].get("timestamp", ""), 
+                key=lambda x: x[1].get("timestamp", ""), 
                 reverse=True
             ))
-            
-            self._save_player_matches(user_id, sorted_matches)
+            self._save_json_file(match_file, sorted_matches)
 
-        # Update lightweight registry metadata
-        report_entry = {
-            "report_id": str(uuid.uuid4()),
-            "timestamp": time.strftime('%Y-%m-%d %H:%M:%S'),
+        # 2. Update Report History Table
+        report_file = self._get_player_file_path(user_id, self.reports_dir)
+        reports = self._load_json_file(report_file)
+        
+        report_id = str(uuid.uuid4())
+        timestamp = time.strftime('%Y-%m-%d %H:%M:%S')
+        
+        reports[report_id] = {
+            "report_id": report_id,
+            "timestamp": timestamp,
             "file_path": file_path,
             "match_count_requested": match_count,
             "matches_processed": processed_count
         }
         
-        user_entry["report_history"].append(report_entry)
-        
-        # Sort report history by timestamp descending (newest first)
-        user_entry["report_history"].sort(key=lambda x: x["timestamp"], reverse=True)
-        
-        user_entry["last_analysis"] = user_entry["report_history"][0]["timestamp"]
+        # Sort reports by timestamp descending
+        sorted_reports = dict(sorted(
+            reports.items(),
+            key=lambda x: x[1].get("timestamp", ""),
+            reverse=True
+        ))
+        self._save_json_file(report_file, sorted_reports)
+
+        # 3. Update Registry Metadata
+        user_entry["last_analysis"] = timestamp
         self.registry["total_reports"] += 1
-        
         self._save_registry()
 
     def get_user_history(self, player_name, tag):
@@ -99,7 +106,13 @@ class DataManager:
 
     def get_player_matches(self, player_name, tag):
         user_id = f"{player_name}#{tag}".lower()
-        return self._load_player_matches(user_id)
+        match_file = self._get_player_file_path(user_id, self.matches_dir)
+        return self._load_json_file(match_file)
+
+    def get_player_reports(self, player_name, tag):
+        user_id = f"{player_name}#{tag}".lower()
+        report_file = self._get_player_file_path(user_id, self.reports_dir)
+        return self._load_json_file(report_file)
 
     def list_all_users(self):
         return list(self.registry["users"].keys())
