@@ -1,0 +1,30 @@
+{
+    "ca0e49e2-c4ba-4881-a070-93b96ed455a2": {
+        "report_id": "ca0e49e2-c4ba-4881-a070-93b96ed455a2",
+        "timestamp": "2026-05-02 11:16:32",
+        "file_path": "results\\europe\\Spear_Shot-1111\\analysis_20260502-111632.txt",
+        "match_count_requested": 5,
+        "matches_processed": 5
+    },
+    "387e23cb-19d6-4e83-afe1-d39a8cb64eaf": {
+        "report_id": "387e23cb-19d6-4e83-afe1-d39a8cb64eaf",
+        "timestamp": "2026-05-02 11:14:09",
+        "file_path": "results\\europe\\Spear_Shot-1111\\analysis_20260502-111409.txt",
+        "match_count_requested": 5,
+        "matches_processed": 5
+    },
+    "ee03ebe2-de46-49db-8adc-be77e3abe221": {
+        "report_id": "ee03ebe2-de46-49db-8adc-be77e3abe221",
+        "timestamp": "2026-05-02 11:06:34",
+        "file_path": "results\\europe\\Spear_Shot-1111\\analysis_20260502-110634.txt",
+        "match_count_requested": 5,
+        "matches_processed": 5
+    },
+    "a0ab9223-2a50-45c0-92ea-da28100736b6": {
+        "report_id": "a0ab9223-2a50-45c0-92ea-da28100736b6",
+        "timestamp": "2026-05-02 11:03:46",
+        "file_path": "results\\europe\\Spear_Shot-1111\\analysis_20260502-110346.txt",
+        "match_count_requested": 5,
+        "matches_processed": 5
+    }
+}

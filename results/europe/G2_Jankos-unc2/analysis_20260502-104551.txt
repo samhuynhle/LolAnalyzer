@@ -1,0 +1,281 @@
+============================================================
+           LOL PERFORMANCE ANALYSIS (AVERAGES)
+============================================================
+Target Player:  G2 Jankos#unc2
+Region:         EUROPE
+Total Matches:  19 (out of 20 fetched)
+Generated On:   2026-05-02 10:45:51
+Note: All values below represent averages per game.
+============================================================
+
+
+#################################################################
+                TOP ROLE ANALYSIS
+#################################################################
+
+>>> TEAMMATE TOP - WINS (13 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           4.2/2.4/2.9     1.8/4.5/2.2     +2.4/-2.2/+0.8 
+Gold            8993            7264            +1729          
+CS              164.1           143.8           +20.3          
+Damage          16151           13333           +2818          
+
+In the 13 games where G2 Jankos's top laner won, G2 Jankos's top laner averaged a lead of 1,729 gold and a lead of 2,818 damage per game.
+=================================================================
+
+>>> TEAMMATE TOP - LOSSES (6 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           2.3/6.0/1.5     8.0/2.3/3.8     -5.7/+3.7/-2.3 
+Gold            6776            10440           -3664          
+CS              132.7           184.3           -51.7          
+Damage          10638           20203           -9565          
+
+In the 6 games where G2 Jankos's top laner lost, G2 Jankos's top laner averaged a deficit of 3,664 gold and a deficit of 9,565 damage per game.
+=================================================================
+
+>>> ALL TEAMMATE TOP GAMES (19 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           3.6/3.5/2.5     3.7/3.8/2.7     -0.2/-0.3/-0.2 
+Gold            8293            8267            +26            
+CS              154.2           156.6           -2.4           
+Damage          14410           15502           -1092          
+
+In the 19 games where G2 Jankos's top laner played, G2 Jankos's top laner averaged a lead of 26 gold and a deficit of 1,092 damage per game.
+=================================================================
+
+
+#################################################################
+                JUNGLE ROLE ANALYSIS
+#################################################################
+
+>>> PLAYER JUNGLE - WINS (12 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           9.7/1.8/6.6     4.2/5.4/3.5     +5.5/-3.6/+3.1 
+Gold            11604           8302            +3302          
+CS              168.8           132.3           +36.5          
+Damage          18468           11919           +6549          
+
+In the 12 games where G2 Jankos won playing jungle, G2 Jankos averaged a lead of 3,302 gold and a lead of 6,549 damage per game.
+=================================================================
+
+>>> PLAYER JUNGLE - LOSSES (6 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           5.5/2.7/3.8     4.3/2.3/7.0     +1.2/+0.3/-3.2 
+Gold            9364            8927            +437           
+CS              159.5           148.7           +10.8          
+Damage          16310           9818            +6491          
+
+In the 6 games where G2 Jankos lost playing jungle, G2 Jankos averaged a lead of 437 gold and a lead of 6,491 damage per game.
+=================================================================
+
+>>> TEAMMATE JUNGLE - WINS (1 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           7.0/0.0/4.0     2.0/2.0/2.0     +5.0/-2.0/+2.0 
+Gold            8422            6268            +2154          
+CS              154.0           127.0           +27.0          
+Damage          7673            7048            +625           
+
+In the 1 games where G2 Jankos's jungler won, G2 Jankos's jungler averaged a lead of 2,154 gold and a lead of 625 damage per game.
+=================================================================
+
+>>> ALL PLAYER JUNGLE GAMES (18 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           8.3/2.1/5.7     4.2/4.4/4.7     +4.1/-2.3/+1.0 
+Gold            10857           8510            +2347          
+CS              165.7           137.8           +27.9          
+Damage          17748           11219           +6530          
+
+In the 18 games where G2 Jankos played jungle, G2 Jankos averaged a lead of 2,347 gold and a lead of 6,530 damage per game.
+=================================================================
+
+>>> ALL TEAMMATE JUNGLE GAMES (1 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           7.0/0.0/4.0     2.0/2.0/2.0     +5.0/-2.0/+2.0 
+Gold            8422            6268            +2154          
+CS              154.0           127.0           +27.0          
+Damage          7673            7048            +625           
+
+In the 1 games where G2 Jankos's jungler played, G2 Jankos's jungler averaged a lead of 2,154 gold and a lead of 625 damage per game.
+=================================================================
+
+
+#################################################################
+                MIDDLE ROLE ANALYSIS
+#################################################################
+
+>>> TEAMMATE MIDDLE - WINS (13 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           4.8/2.5/5.3     3.0/4.9/3.2     +1.8/-2.5/+2.1 
+Gold            9140            7210            +1929          
+CS              165.8           140.3           +25.5          
+Damage          18114           14560           +3553          
+
+In the 13 games where G2 Jankos's mid laner won, G2 Jankos's mid laner averaged a lead of 1,929 gold and a lead of 3,553 damage per game.
+=================================================================
+
+>>> TEAMMATE MIDDLE - LOSSES (6 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           3.0/6.8/4.2     6.2/3.3/3.7     -3.2/+3.5/+0.5 
+Gold            7315            9009            -1694          
+CS              140.8           157.0           -16.2          
+Damage          11804           13876           -2072          
+
+In the 6 games where G2 Jankos's mid laner lost, G2 Jankos's mid laner averaged a deficit of 1,694 gold and a deficit of 2,072 damage per game.
+=================================================================
+
+>>> ALL TEAMMATE MIDDLE GAMES (19 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           4.2/3.8/4.9     4.0/4.4/3.4     +0.2/-0.6/+1.6 
+Gold            8563            7778            +785           
+CS              157.9           145.6           +12.4          
+Damage          16121           14344           +1777          
+
+In the 19 games where G2 Jankos's mid laner played, G2 Jankos's mid laner averaged a lead of 785 gold and a lead of 1,777 damage per game.
+=================================================================
+
+
+#################################################################
+                BOTTOM ROLE ANALYSIS
+#################################################################
+
+>>> TEAMMATE BOTTOM - WINS (13 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           6.8/3.5/6.1     2.5/6.5/2.8     +4.2/-3.0/+3.2 
+Gold            10734           8166            +2568          
+CS              159.2           149.7           +9.5           
+Damage          18985           12080           +6905          
+
+In the 13 games where G2 Jankos's bot laner won, G2 Jankos's bot laner averaged a lead of 2,568 gold and a lead of 6,905 damage per game.
+=================================================================
+
+>>> TEAMMATE BOTTOM - LOSSES (6 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           1.5/5.2/2.2     5.5/2.5/5.2     -4.0/+2.7/-3.0 
+Gold            7548            10006           -2458          
+CS              156.5           171.5           -15.0          
+Damage          9943            14586           -4642          
+
+In the 6 games where G2 Jankos's bot laner lost, G2 Jankos's bot laner averaged a deficit of 2,458 gold and a deficit of 4,642 damage per game.
+=================================================================
+
+>>> ALL TEAMMATE BOTTOM GAMES (19 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           5.1/4.1/4.8     3.5/5.3/3.6     +1.6/-1.2/+1.3 
+Gold            9728            8747            +981           
+CS              158.4           156.6           +1.8           
+Damage          16129           12871           +3258          
+
+In the 19 games where G2 Jankos's bot laner played, G2 Jankos's bot laner averaged a lead of 981 gold and a lead of 3,258 damage per game.
+=================================================================
+
+
+#################################################################
+                SUPPORT ROLE ANALYSIS
+#################################################################
+
+>>> PLAYER SUPPORT - WINS (1 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           3.0/2.0/3.0     3.0/4.0/3.0     +0.0/-2.0/+0.0 
+Gold            5713            5245            +468           
+CS              35.0            40.0            -5.0           
+Damage          8798            3010            +5788          
+
+In the 1 games where G2 Jankos won playing support, G2 Jankos averaged a lead of 468 gold and a lead of 5,788 damage per game.
+=================================================================
+
+>>> TEAMMATE SUPPORT - WINS (12 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           1.1/3.2/13.6    1.7/5.4/6.7     -0.6/-2.2/+6.9 
+Gold            6475            5953            +522           
+CS              20.0            25.2            -5.2           
+Damage          6783            7343            -561           
+
+In the 12 games where G2 Jankos's teammate won, G2 Jankos's teammate averaged a lead of 522 gold and a deficit of 561 damage per game.
+=================================================================
+
+>>> TEAMMATE SUPPORT - LOSSES (6 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           0.8/5.0/6.0     1.7/2.7/11.7    -0.8/+2.3/-5.7 
+Gold            5288            6258            -970           
+CS              23.7            22.0            +1.7           
+Damage          8164            7174            +990           
+
+In the 6 games where G2 Jankos's teammate lost, G2 Jankos's teammate averaged a deficit of 970 gold and a lead of 990 damage per game.
+=================================================================
+
+>>> ALL PLAYER SUPPORT GAMES (1 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           3.0/2.0/3.0     3.0/4.0/3.0     +0.0/-2.0/+0.0 
+Gold            5713            5245            +468           
+CS              35.0            40.0            -5.0           
+Damage          8798            3010            +5788          
+
+In the 1 games where G2 Jankos played support, G2 Jankos averaged a lead of 468 gold and a lead of 5,788 damage per game.
+=================================================================
+
+>>> ALL TEAMMATE SUPPORT GAMES (18 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           1.0/3.8/11.1    1.7/4.5/8.3     -0.7/-0.7/+2.7 
+Gold            6079            6055            +24            
+CS              21.2            24.1            -2.9           
+Damage          7243            7287            -44            
+
+In the 18 games where G2 Jankos's teammate played, G2 Jankos's teammate averaged a lead of 24 gold and a deficit of 44 damage per game.
+=================================================================
+
+
+============================================================
+                SUMMARY AGGREGATES (ALL ROLES)
+============================================================
+
+>>> OVERALL G2 JANKOS PERFORMANCE (ALL ROLES) (19 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           8.0/2.1/5.5     4.2/4.4/4.6     +3.8/-2.3/+0.9 
+Gold            10587           8338            +2248          
+CS              158.8           132.6           +26.2          
+Damage          17277           10787           +6491          
+
+In the 19 games where G2 Jankos's teammates played any role, G2 Jankos's teammates averaged a lead of 2,248 gold and a lead of 6,491 damage per game.
+=================================================================
+
+>>> OVERALL TEAMMATE PERFORMANCE (ALL ROLES) (19 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           3.6/3.8/5.7     3.2/4.5/4.4     +0.3/-0.7/+1.3 
+Gold            8197            7715            +482           
+CS              124.7           122.1           +2.6           
+Damage          13482           12498           +984           
+
+In the 19 games where G2 Jankos's teammates played any role, G2 Jankos's teammates averaged a lead of 482 gold and a lead of 984 damage per game.
+=================================================================
+
+>>> GRAND OVERALL PERFORMANCE (EVERYONE) (19 Games)
+METRIC          AVG TEAM        AVG ENEMY       AVG DIFF       
+-----------------------------------------------------------------
+K/D/A           4.4/3.4/5.7     3.4/4.5/4.4     +1.0/-1.0/+1.3 
+Gold            8675            7839            +835           
+CS              131.5           124.2           +7.3           
+Damage          14241           12156           +2085          
+
+In the 19 games where all roles were combined, The collective players averaged a lead of 835 gold and a lead of 2,085 damage per game.
+=================================================================

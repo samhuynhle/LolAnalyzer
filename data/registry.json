@@ -1,0 +1,23 @@
+{
+    "users": {
+        "spear shot#1111": {
+            "name": "Spear Shot",
+            "tag": "1111",
+            "region": "euw1",
+            "first_seen": "2026-05-02 10:39:10",
+            "last_analysis": "2026-05-02 11:16:32",
+            "match_history_file": "matches/spear_shot_1111.json",
+            "report_history_file": "reports/spear_shot_1111.json"
+        },
+        "g2 jankos#unc2": {
+            "name": "G2 Jankos",
+            "tag": "unc2",
+            "region": "europe",
+            "first_seen": "2026-05-02 10:45:51",
+            "last_analysis": "2026-05-02 10:49:01",
+            "match_history_file": "matches/g2_jankos_unc2.json",
+            "report_history_file": "reports/g2_jankos_unc2.json"
+        }
+    },
+    "total_reports": 13
+}

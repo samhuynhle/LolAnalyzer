@@ -1,0 +1,50 @@
+{
+    "EUW1_7839887458": {
+        "match_id": "EUW1_7839887458",
+        "champion": "LeeSin",
+        "role": "JUNGLE",
+        "win": false,
+        "kills": 5,
+        "deaths": 2,
+        "assists": 0,
+        "gold": 6753,
+        "damage": 9580,
+        "timestamp": "2026-05-02 14:22:09"
+    },
+    "EUW1_7839850679": {
+        "match_id": "EUW1_7839850679",
+        "champion": "Sylas",
+        "role": "JUNGLE",
+        "win": true,
+        "kills": 20,
+        "deaths": 3,
+        "assists": 3,
+        "gold": 15719,
+        "damage": 27258,
+        "timestamp": "2026-05-02 13:53:55"
+    },
+    "EUW1_7839817150": {
+        "match_id": "EUW1_7839817150",
+        "champion": "Rengar",
+        "role": "JUNGLE",
+        "win": true,
+        "kills": 12,
+        "deaths": 3,
+        "assists": 9,
+        "gold": 13896,
+        "damage": 28062,
+        "timestamp": "2026-05-02 13:23:56"
+    },
+    "EUW1_7839793171": {
+        "match_id": "EUW1_7839793171",
+        "champion": "Rengar",
+        "role": "JUNGLE",
+        "win": false,
+        "kills": 5,
+        "deaths": 3,
+        "assists": 1,
+        "gold": 7603,
+        "damage": 7151,
+        "timestamp": "2026-05-02 13:03:55"
+    }
+}
