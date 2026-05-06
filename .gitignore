@@ -10,6 +10,7 @@ venv/
 
 # Project Specific
 cache/
+results/
 
 # IDEs
 .vscode/

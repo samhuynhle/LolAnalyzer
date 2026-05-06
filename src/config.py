@@ -16,6 +16,8 @@ ASIA = ["KR", "JP1"]
 EUROPE = ["EUW1", "EUNE1", "TR1", "RU"]
 SEA = ["OC1", "PH2", "SG2", "TH2", "TW2", "VN2"]
 
+RANKED_QUEUES = [420, 440] # 420: Solo/Duo, 440: Flex
+
 def get_routing_region(region):
     region = region.upper()
     if region in AMERICAS: return "americas"

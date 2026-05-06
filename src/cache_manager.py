@@ -3,8 +3,12 @@ import json
 import hashlib
 
 class CacheManager:
-    def __init__(self, region, player_slug):
-        self.cache_dir = os.path.join("cache", region.lower(), player_slug)
+    def __init__(self, region, player_slug=None):
+        if player_slug:
+            self.cache_dir = os.path.join("cache", region.lower(), player_slug)
+        else:
+            self.cache_dir = os.path.join("cache", region.lower(), "global")
+            
         if not os.path.exists(self.cache_dir):
             os.makedirs(self.cache_dir)
 

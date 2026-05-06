@@ -1,0 +1,143 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.dashboard, .player-details, .report-viewer {
+  text-align: left;
+}
+
+.analysis-form {
+  background: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #1a1a1a;
+  color: white;
+  box-sizing: border-box;
+}
+
+.error {
+  color: #ff4d4d;
+  margin-top: 1rem;
+}
+
+.status {
+  color: #646cff;
+  margin-top: 1rem;
+}
+
+.player-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.player-list li {
+  margin-bottom: 0.5rem;
+  padding: 0.8rem;
+  background: #2a2a2a;
+  border-radius: 6px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.history-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .history-grid {
+    grid-template-columns: 300px 1fr;
+  }
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid #444;
+}
+
+th {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.win {
+  color: #4dff88;
+  font-weight: bold;
+}
+
+.loss {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+.report-content {
+  background: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre-wrap;
+  line-height: 1.2;
+  font-size: 0.9rem;
+  color: #e0e0e0;
+}
+
+@media (prefers-color-scheme: light) {
+  .analysis-form {
+    background: #f0f0f0;
+  }
+  .form-group input {
+    background: white;
+    color: #213547;
+    border: 1px solid #ccc;
+  }
+  .player-list li {
+    background: #f0f0f0;
+  }
+  .report-content {
+    background: #f9f9f9;
+    color: #213547;
+    border: 1px solid #eee;
+  }
+  th, td {
+    border-bottom: 1px solid #eee;
+  }
+}

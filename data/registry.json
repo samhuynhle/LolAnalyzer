@@ -5,7 +5,7 @@
             "tag": "1111",
             "region": "euw1",
             "first_seen": "2026-05-02 10:39:10",
-            "last_analysis": "2026-05-02 11:16:32",
+            "last_analysis": "2026-05-06 15:13:16",
             "match_history_file": "matches/spear_shot_1111.json",
             "report_history_file": "reports/spear_shot_1111.json"
         },
@@ -19,5 +19,5 @@
             "report_history_file": "reports/g2_jankos_unc2.json"
         }
     },
-    "total_reports": 13
+    "total_reports": 35
 }
